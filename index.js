@@ -12,7 +12,7 @@ async function readStdin() {
 async function main() {
   try {
     const toPlot = await readStdin();
-    console.log(asciichart.plot(toPlot))
+    console.log(asciichart.plot(toPlot, {height: 42}))
   } catch (err) {
     console.log(err);
     process.exit(1);
