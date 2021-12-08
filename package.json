@@ -1,0 +1,23 @@
+{
+  "name": "asciichart-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nromito/asciichart-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nromito/asciichart-cli/issues"
+  },
+  "homepage": "https://github.com/nromito/asciichart-cli#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "asciichart": "^1.5.25"
+  }
+}
