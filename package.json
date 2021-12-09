@@ -1,5 +1,5 @@
 {
-  "name": "asciichart-cli",
+  "name": "cli-asciichart",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,6 +16,9 @@
     "url": "https://github.com/nromito/asciichart-cli/issues"
   },
   "homepage": "https://github.com/nromito/asciichart-cli#readme",
+  "bin": {
+    "asciichart": "index.js"
+  },
   "devDependencies": {},
   "dependencies": {
     "asciichart": "^1.5.25"
