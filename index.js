@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const asciichart = require('asciichart');
 
 async function readStdin() {
